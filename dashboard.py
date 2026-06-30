@@ -12,6 +12,9 @@ from ta.momentum import RSIIndicator, StochasticOscillator
 from ta.volatility import BollingerBands, AverageTrueRange
 import yfinance as yf
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import nltk
+nltk.download('punkt', quiet=True)
+nltk.download('averaged_perceptron_tagger', quiet=True)
 
 st.set_page_config(page_title="🚀 Elite Trading Dashboard", layout="wide")
 st.title("🤖 Ultimate Trading Bot Dashboard")
