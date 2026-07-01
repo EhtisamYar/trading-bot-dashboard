@@ -1,9 +1,8 @@
 streamlit
-ccxt
 pandas
 numpy
+ccxt
+requests
 plotly
 ta
-textblob
 yfinance
-requests
